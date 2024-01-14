@@ -5,7 +5,17 @@
     font-family: sans-serif;
 }
 main {
-    background-color: aqua;
+    background-color: #fbfbfb;
     width: 100%;
     height: 90vh;
 }
+h3{
+    align-self: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.main-navbar{
+margin-left: 100px;
+}
+
