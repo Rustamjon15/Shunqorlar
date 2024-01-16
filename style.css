@@ -28,3 +28,7 @@ header .links a {
     color: black;
     margin-left: 10px;
 }
+
+header .bx {
+    font-size: 25px;
+}
