@@ -56,14 +56,6 @@ body {
     color: aqua;
 }
 
-.form .err {
-    border-bottom: 1px solid #f00;
-}
-
-.form .valid {
-    border-bottom: 1px solid #0f0;
-}
-
 #wrap button {
     width: 100%;
     padding: 10px;

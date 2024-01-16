@@ -7,31 +7,22 @@ function submit() {
     if (inputName.value.trim() != "" &&
         inputAge.value.trim() != "" &&
         inputNumber.value.trim() != "") {
-        inputName.classList.add("valid");
-        inputAge.classList.add("valid");
-        inputNumber.classList.add("valid");
+        add();
+        inputName.style.borderBottom = "1px solid #0f0";
+        inputAge.style.borderBottom = "1px solid #0f0";
+        inputNumber.style.borderBottom = "1px solid #0f0";
         inputName.value = "";
         inputAge.value = "";
         inputNumber.value = "";
-        add();
     } else {
         if (inputName.value.trim() == "") {
-            inputName.classList.add("err");
-        } else {
-            inputName.classList.remove("err");
-            inputName.classList.add("valid");
+            inputName.style.borderBottom = "1px solid red";
         }
         if (inputAge.value.trim() == "") {
-            inputAge.classList.add("err");
-        } else {
-            inputAge.classList.remove("err");
-            inputAge.classList.add("valid");
+            inputAge.style.borderBottom = "1px solid red";
         }
         if (inputNumber.value.trim() == "") {
-            inputNumber.classList.add("err");
-        } else {
-            inputNumber.classList.remove("err");
-            inputNumber.classList.add("valid");
+            inputNumber.style.borderBottom = "1px solid red";
         }
     }
 }
@@ -42,5 +33,5 @@ function add() {
         age: inputAge.value,
         number: inputNumber.value
     })
-    console.log(users);
+    show()
 }
