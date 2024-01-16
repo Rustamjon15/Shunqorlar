@@ -25,27 +25,33 @@
           <p>Nutbok HP-DDR4 4GB - HDD 1000GB - HD LET</p>
           <span>UZS 3 475 000</span>
           <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button> <button>Savatchaga</button>
+          <button id="addUser" onclick="hender('visible')">Sotib olish</button>
+          <button>Savatchaga</button>
         </div>
         <div class="main-div">
           <img src="./img/krasofka.jpeg" alt="" />
           <p>Fashion Unisex Soccer shoes Football Cleats Soccer</p>
           <span> UZS 530 000</span>
-          <i class="fa-regular fa-heart"></i> <br /><button>Sotib olish</button>
+          <i class="fa-regular fa-heart"></i> <br /><button
+            onclick="hender('visible')"
+          >
+            Sotib olish
+          </button>
           <button>Savatchaga</button>
         </div>
         <div class="main-div">
           <img src="./img/karsofka 2.jpeg" alt="" />
           <p>Men Skid Resistant Hiking Shoes Fashion Mountain</p>
           <span>UZS 279 000</span> <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button> <button>Savatchaga</button>
+          <button onclick="hender('visible')">Sotib olish</button>
+          <button>Savatchaga</button>
         </div>
         <div class="main-div">
           <img src="./img/duxi.png" alt="" />
           <p>Versace Man Eau Fraiche EDT 100 ml fashinon</p>
           <span>UZS 7000 000</span>
           <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button>
+          <button onclick="hender('visible')">Sotib olish</button>
           <button>Savatchaga</button>
         </div>
         <div class="main-div">
@@ -55,7 +61,7 @@
           </p>
           <span>UZS 1 790 000</span>
           <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button>
+          <button onclick="hender('visible')">Sotib olish</button>
           <button>Savatchaga</button>
         </div>
         <div class="main-div">
@@ -66,7 +72,7 @@
           </p>
           <span>UZS 279 000</span>
           <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button>
+          <button onclick="hender('visible')">Sotib olish</button>
           <button>Savatchaga</button>
         </div>
         <div class="main-div">
@@ -77,7 +83,7 @@
           </p>
           <span>UZS 560 000</span>
           <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button>
+          <button onclick="hender('visible')">Sotib olish</button>
           <button>Savatchaga</button>
         </div>
         <div class="main-div">
@@ -87,7 +93,7 @@
           </p>
           <span>UZS 290 000</span>
           <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button>
+          <button onclick="hender('visible')">Sotib olish</button>
           <button>Savatchaga</button>
         </div>
         <div class="main-div">
@@ -95,18 +101,43 @@
           <p>Смарт телевизор Rosso 50RU92 50" 4K UHD</p>
           <span>UZS 5 597 000</span>
           <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button>
+          <button onclick="hender('visible')">Sotib olish</button>
           <button>Savatchaga</button>
         </div>
         <div class="main-div">
           <img src="./img/kirmoshna.jpg" alt="" />
           <p>Хлебопечь Panasonic SD-2511WTS С помощью хлебопечки</p>
           <span>UZS 3 475 000</span> <i class="fa-regular fa-heart"></i> <br />
-          <button>Sotib olish</button>
+          <button onclick="hender('visible')">Sotib olish</button>
           <button>Savatchaga</button>
         </div>
       </div>
     </main>
+
+    <!-- buy  form to create  -->
+
+    <form id="userForm">
+      <img class="imgform" src="./img/shoping.jpg" alt="" />
+      <div>
+        <label for="name">Ismizni kriting </label> <br />
+        <input name="name" type="text" />
+      </div>
+      <div>
+        <label for="age">Yoshiz kriting</label><br />
+        <input name="age" type="number" />
+      </div>
+      <div>
+        <label for="phon">Nomerzini krituing</label><br />
+        <input name="name" type="number" />
+      </div>
+      <button type="submit">Zakas berish</button>
+      <button onclick="hender(hidden)">Bekor qilish</button>
+      <div class="formEND">
+        <img src="./img/card__logo_visa.png" alt="" />
+        <img src="./img/uz.jpg" alt="" />
+        <img src="./img/humo-logo-more.png" alt="" />
+      </div>
+    </form>
 
     <script src="script.js"></script>
   </body>
