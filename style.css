@@ -52,10 +52,24 @@ main h3 {
     color: #00573f;
     display: inline;
     font-size: 40px;
+
+    margin-left: 10px;
+    padding-top: 40px;
 }
+
+.shopingimg {
+    border-radius: 10px;
+    width: 300px;
+    height: 110px;
+    margin-left: 100px;
+}
+
 
 .main-navbar {
     width: 100%;
+
+    margin-top:  30px;
+    /* height: 110vh; */
     height: 110px;
     display: flex;
     align-items: center;
